@@ -1,0 +1,48 @@
+*{
+	margin: 0;
+	padding: 0;
+	outline: 0;
+
+}
+.filter {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 1;
+	background-image: url(img/backgroundSchedule.jpg);
+	
+}
+
+table{
+	position: absolute;
+	z-index: 2;
+	left: 35%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	width: 55%;
+	border-collapse: collapse;
+	border-spacing: 0;
+	border-radius: 10px 10px 0 0;
+	overflow: hidden;
+	box-shadow: 0 2px 12px rgba(32, 32, 32, .3);
+	background: #fafafa;
+	text-align: center;
+}
+th,td{
+	padding: 10px 15px;
+
+}
+th{
+	background: #00008b;
+	text-transform: uppercase;
+	font-family: 'Roboto', sans-serif;
+	color: #fafafa;
+}
+td{
+	font-family: 'Open-sans', sans-serif;
+}
+tr:nth-child(odd){
+	background-color: #eeeeee;
+}
